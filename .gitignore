@@ -1,0 +1,64 @@
+# =========================
+# Python
+# =========================
+
+# Virtual environment
+backend/venv/
+venv/
+.env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Environment variables
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+# Frontend dependencies
+# =========================
+
+frontend/node_modules/
+
+# Frontend build files
+frontend/dist/
+frontend/build/
+frontend/.next/
+frontend/.vite/
+
+# =========================
+# Generated / temporary files
+# =========================
+
+*.log
+*.tmp
+*.temp
+
+# =========================
+# Python generated files
+# =========================
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# IDE / Editor
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+# OS files
+# =========================
+
+.DS_Store
+Thumbs.db
