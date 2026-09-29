@@ -1,0 +1,9 @@
+{
+  "sample_rate_hz": 1000000,
+  "num_samples": 60000,
+  "duration_seconds": 0.06,
+  "modulation": "BPSK",
+  "snr_db": 15,
+  "symbol_rate_hz": 50000,
+  "carrier_offset_hz": -5000
+}

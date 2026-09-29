@@ -1,0 +1,9 @@
+{
+  "sample_rate_hz": 1000000,
+  "num_samples": 30000,
+  "duration_seconds": 0.03,
+  "modulation": "QPSK",
+  "snr_db": 10,
+  "symbol_rate_hz": 100000,
+  "carrier_offset_hz": 5000
+}

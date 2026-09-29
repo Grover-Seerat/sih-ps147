@@ -1,0 +1,12 @@
+{
+  "format": "wav",
+  "classification": {
+    "modulation": "FM",
+  "signal_parameters": {
+    "sample_rate_hz": 48000,
+    "bandwidth_hz": 26765.625,
+    "snr_db": 15.97,
+    "symbol_rate_hz": 12654,
+    "carrier_offset_hz": 210.9
+  }
+}}

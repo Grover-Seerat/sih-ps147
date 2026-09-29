@@ -1,0 +1,26 @@
+=== Held-out test set (SNR=20dB and/or |offset|=20kHz, NOT seen in training) ===
+              precision    recall  f1-score   support
+
+       16QAM      0.791     0.814     0.803       312
+        8PSK      0.576     0.718     0.639       312
+          AM      0.924     0.981     0.952       312
+        BPSK      0.723     0.769     0.745       312
+          FM      0.682     0.913     0.781       312
+         FSK      0.679     0.468     0.554       312
+        GFSK      0.586     0.481     0.528       312
+        QPSK      0.607     0.455     0.520       312
+
+    accuracy                          0.700      2496
+   macro avg      0.696     0.700     0.690      2496
+weighted avg      0.696     0.700     0.690      2496
+
+Confusion matrix (rows=true, cols=predicted):
+          16QAM    8PSK      AM    BPSK      FM     FSK    GFSK    QPSK
+  16QAM     254      29       1      18       0       3       0       7
+   8PSK      17     224       0      18       0       4       1      48
+     AM       0       0     306       0       6       0       0       0
+   BPSK      13      21       0     240       0       6       5      27
+     FM       3       0      18       0     285       2       4       0
+    FSK       7       7       3      10      42     146      92       5
+   GFSK       4       6       3       6      85      53     150       5
+   QPSK      23     102       0      40       0       1       4     142

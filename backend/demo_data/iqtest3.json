@@ -1,0 +1,9 @@
+{
+  "sample_rate_hz": 2000000,
+  "num_samples": 24000,
+  "duration_seconds": 0.012,
+  "modulation": "16QAM",
+  "snr_db": 15,
+  "symbol_rate_hz": 250000,
+  "carrier_offset_hz": 0
+}
